@@ -1,5 +1,5 @@
 # Blood Bank Management System
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
+
 ---
 ## Screenshots
 ### Homepage
@@ -46,35 +46,15 @@ py manage.py createsuperuser
 
 
 
-### Patient
+### Hospital
 - Create account (No Approval Required By Admin, Can Login After Signup)
 - After Login, Can see number of blood request Made, Approved, Pending, Rejected by Admin on their dashboard.
-- Patient can request for blood of specific blood group and unit from blood stock.
-- Patient can see their blood request history with status (Pending, Approved, Rejected).
+- Hospital can request for blood of specific blood group and unit from blood stock.
+- Hospital can see their blood request history with status (Pending, Approved, Rejected).
 
 ---
 
-## HOW TO RUN THIS PROJECT
-- Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
-- Download This Project Zip Folder and Extract it
-- Move to project folder in Terminal. Then run following Commands :
-
-```
-python -m pip install -r requirements. txt
-```
-
-```
-py manage.py makemigrations
-py manage.py migrate
-py manage.py runserver
-```
-- Now enter following URL in Your Browser Installed On Your Pc
-```
-http://127.0.0.1:8000/
-```
 
 
-## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/sumit.luv)
-- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
+
+
